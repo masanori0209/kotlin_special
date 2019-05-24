@@ -1,0 +1,9 @@
+version: '2'
+
+services:
+
+  kotlin:
+    build: .
+    command: bash -c "gradle run"
+    volumes:
+    - .:/app
